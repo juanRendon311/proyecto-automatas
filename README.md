@@ -16,7 +16,7 @@ javac -encoding UTF-8 -d bin src\App.java src\Simulator.java
 java -cp bin App
 ```
 
-En VS Code también se puede abrir `src\App.java` y ejecutar `App`. Selecciona un nivel en las pestañas de colores. Cada módulo muestra una cinta o diagrama de estados, resalta el cabezal y las marcas, y permite cargar ejemplos, avanzar o retroceder, reproducir, pausar, cambiar la velocidad y reiniciar.
+En VS Code también se puede abrir `src\App.java` y ejecutar `App`. Selecciona un nivel en las pestañas de colores. La interfaz usa tarjetas redondeadas, una paleta de alto contraste y controles agrupados. Cada módulo dibuja la transición actual entre estados y muestra la cinta o cadena, resalta el cabezal y las marcas, y permite cargar ejemplos, avanzar o retroceder, reproducir, pausar, cambiar la velocidad y reiniciar.
 
 Para compilar y ejecutar las pruebas de los simuladores:
 
@@ -56,4 +56,4 @@ git push
 
 ## Documento técnico
 
-La explicación de los modelos, los algoritmos de simulación y las decisiones de interfaz está en [`docs/IMPLEMENTACION.md`](docs/IMPLEMENTACION.md).
+La explicación de los modelos, los algoritmos de simulación y las decisiones de interfaz está en [`docs/IMPLEMENTACION.md`](docs/IMPLEMENTACION.md). la cui
